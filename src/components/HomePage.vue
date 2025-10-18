@@ -5,7 +5,7 @@
             <button class="btn btn-success" @click="submitinfo()">Search</button>
         </div>
         <div v-if="cat.length">
-            <h3 class="mt-4">List of all of the food categories:</h3>
+            <h3 class="mt-4">List of all of the food categories 😋:</h3>
             <ul class="list-group">
                 <li v-for="elm in cat" class="list-group-item"><router-link :to="{name:'recipes',params:{recipe:elm.strCategory,type:'cat'}}" style="text-decoration: none; color:#42b983 ;">{{ elm.strCategory }}</router-link></li>
             </ul>
