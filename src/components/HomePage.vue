@@ -2,7 +2,7 @@
     <div>
         <div class="d-flex container justify-content-center">
             <input type="text" class="form-control w-50" v-model="search">
-            <button class="btn btn-success" @click="submitinfo()">Search</button>
+            <button class="btn btn-success" @click="submitinfo()">Search this</button>
         </div>
         <div v-if="cat.length">
             <h3 class="mt-4">List of all of the food categories:</h3>
