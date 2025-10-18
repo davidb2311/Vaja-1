@@ -14,7 +14,7 @@
                 <img :src="msg[0].strMealThumb" alt="" class="img-thumbnail" >
                 <div>
                     <p>{{ msg[0].strInstructions }}</p>
-                    <a :href="msg[0].strYoutube" target="_blank" style="text-decoration: none;" v-if="msg[0].strYoutube">Link to yt video</a>
+                    <a :href="msg[0].strYoutube" target="_blank" style="text-decoration: none;" v-if="msg[0].strYoutube">Link to yt video 😁</a>
                     <h5 class="mt-2 text-success">List of ingredients:</h5>
                     <table class="table table-bordered">
                         <tr v-for="i in getcaci()"><td>{{ msg[0][`strIngredient${i}`]}} </td><td>{{ msg[0][`strMeasure${i}`] }}</td></tr>
