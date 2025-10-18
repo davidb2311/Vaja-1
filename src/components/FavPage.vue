@@ -1,5 +1,6 @@
 <template>
     <div>
+        <h2>Enjoy your favourite meals ✨</h2>
         <div v-if="msg" class="menu">
             <div v-for="(elm,ind) in msg" class="card" style="width: 18rem;">
                 <img class="card-img-top" :src="elm.strMealThumb" alt="Card image cap">
