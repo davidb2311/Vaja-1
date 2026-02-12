@@ -7,7 +7,7 @@
         <div v-if="cat.length">
             <h3 class="mt-4">List of all of the food categories 😋:</h3>
             <ul class="list-group">
-                <li v-for="elm in cat" class="list-group-item"><router-link :to="{name:'recipes',params:{recipe:elm.strCategory,type:'cat'}}" style="text-decoration: none; color:#42b983 ;">{{ elm.strCategory }}</router-link></li>
+                <li v-for="elm in cat" class="list-group-item"><router-link :to="{name:'recipes',params:{recipe:elm.strCategory,type:'cat'}}" style="text-decoration: none; color:blue ;">{{ elm.strCategory }}</router-link></li>
             </ul>
         </div>
         <div v-if="areas.length" >
